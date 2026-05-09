@@ -1,0 +1,38 @@
+[
+  {
+    "milestone": "M1",
+    "composite_score": 38.33,
+    "student_tier": "Beginning",
+    "assessed_at": "2026-04-15T14:05:18.675021+00:00",
+    "domain_scores": {
+      "CT": 43.75,
+      "CR": 41.67,
+      "CM": 25,
+      "CL": 43.75
+    }
+  },
+  {
+    "milestone": "M2",
+    "composite_score": 51.67,
+    "student_tier": "Developing",
+    "assessed_at": "2026-04-15T14:06:27.188685+00:00",
+    "domain_scores": {
+      "CT": 68.75,
+      "CR": 50,
+      "CM": 31.25,
+      "CL": 56.25
+    }
+  },
+  {
+    "milestone": "M3",
+    "composite_score": 90,
+    "student_tier": "Exemplary",
+    "assessed_at": "2026-04-15T14:08:13.040976+00:00",
+    "domain_scores": {
+      "CT": 100,
+      "CR": 100,
+      "CM": 87.5,
+      "CL": 75
+    }
+  }
+]

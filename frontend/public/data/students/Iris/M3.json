@@ -1,0 +1,100 @@
+{
+  "student_id": "Iris",
+  "milestone": "M3",
+  "composite_score": 78.33,
+  "student_tier": "Proficient",
+  "assessed_at": "2026-04-15T14:47:37.618378+00:00",
+  "narrative_summary": "Iris 在 M3 的综合表现为 Proficient，综合分 78.3。 当前相对优势在 CT（100.0），较弱环节在 CM（68.8）。",
+  "domain_scores": {
+    "CT": {
+      "normalized": 100,
+      "tier": "Exemplary"
+    },
+    "CR": {
+      "normalized": 75,
+      "tier": "Proficient"
+    },
+    "CM": {
+      "normalized": 68.75,
+      "tier": "Proficient"
+    },
+    "CL": {
+      "normalized": 68.75,
+      "tier": "Proficient"
+    }
+  },
+  "dimension_scores": {
+    "CT1": {
+      "final_score": 4,
+      "rationale": null
+    },
+    "CT2": {
+      "final_score": 4,
+      "rationale": null
+    },
+    "CT3": {
+      "final_score": 4,
+      "rationale": null
+    },
+    "CT4": {
+      "final_score": 4,
+      "rationale": null
+    },
+    "CR1": {
+      "final_score": 3,
+      "rationale": null
+    },
+    "CR2": {
+      "final_score": 3,
+      "rationale": null
+    },
+    "CR3": {
+      "final_score": 3,
+      "rationale": null
+    },
+    "CM1": {
+      "final_score": 3,
+      "rationale": null
+    },
+    "CM2": {
+      "final_score": 3,
+      "rationale": null
+    },
+    "CM3": {
+      "final_score": 3,
+      "rationale": null
+    },
+    "CM4": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CL1": {
+      "final_score": 3,
+      "rationale": null
+    },
+    "CL2": {
+      "final_score": 3,
+      "rationale": null
+    },
+    "CL3": {
+      "final_score": 3,
+      "rationale": null
+    },
+    "CL4": {
+      "final_score": 2,
+      "rationale": null
+    }
+  },
+  "flags": {
+    "intervention_alert": false,
+    "equity_flag": false,
+    "unresolved_dimensions": []
+  },
+  "evidence_snippets": [
+    {
+      "source": "collab_trace",
+      "text": "Iris 在 M3 的综合表现为 Proficient，综合分 78.3。 当前相对优势在 CT（100.0），较弱环节在 CM（68.8）。",
+      "trace_ref": null
+    }
+  ]
+}

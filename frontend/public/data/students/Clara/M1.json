@@ -1,0 +1,100 @@
+{
+  "student_id": "Clara",
+  "milestone": "M1",
+  "composite_score": 38.33,
+  "student_tier": "Beginning",
+  "assessed_at": "2026-04-15T14:21:12.897762+00:00",
+  "narrative_summary": "Clara 在 M1 的综合表现为 Beginning，综合分 38.3。 当前相对优势在 CT（43.8），较弱环节在 CM（25.0）。",
+  "domain_scores": {
+    "CT": {
+      "normalized": 43.75,
+      "tier": "Beginning"
+    },
+    "CR": {
+      "normalized": 41.67,
+      "tier": "Beginning"
+    },
+    "CM": {
+      "normalized": 25,
+      "tier": "Beginning"
+    },
+    "CL": {
+      "normalized": 43.75,
+      "tier": "Beginning"
+    }
+  },
+  "dimension_scores": {
+    "CT1": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CT2": {
+      "final_score": 1,
+      "rationale": null
+    },
+    "CT3": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CT4": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CR1": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CR2": {
+      "final_score": 1,
+      "rationale": null
+    },
+    "CR3": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CM1": {
+      "final_score": 1,
+      "rationale": null
+    },
+    "CM2": {
+      "final_score": 1,
+      "rationale": null
+    },
+    "CM3": {
+      "final_score": 1,
+      "rationale": null
+    },
+    "CM4": {
+      "final_score": 1,
+      "rationale": null
+    },
+    "CL1": {
+      "final_score": 1,
+      "rationale": null
+    },
+    "CL2": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CL3": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CL4": {
+      "final_score": 2,
+      "rationale": null
+    }
+  },
+  "flags": {
+    "intervention_alert": false,
+    "equity_flag": false,
+    "unresolved_dimensions": []
+  },
+  "evidence_snippets": [
+    {
+      "source": "collab_trace",
+      "text": "Clara 在 M1 的综合表现为 Beginning，综合分 38.3。 当前相对优势在 CT（43.8），较弱环节在 CM（25.0）。",
+      "trace_ref": null
+    }
+  ]
+}
