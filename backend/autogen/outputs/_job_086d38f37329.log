@@ -1,0 +1,152 @@
+$ C:\ProgramData\anaconda3\python.exe run_timeline_experiments.py --config-list-file configs/oai_config_list.json --smoke-test
+
+2026-05-11 20:41:10,294 | INFO | src.persona_project_timeline_dataset.runner | Starting project timeline_smoke_test__project_01 scenario=group_course_presentation planned_sessions=2
+C:\ProgramData\anaconda3\Lib\site-packages\paramiko\transport.py:219: CryptographyDeprecationWarning: Blowfish has been deprecated and will be removed in a future release
+  "class": algorithms.Blowfish,
+2026-05-11 20:41:14,265 | INFO | numexpr.utils | Note: NumExpr detected 32 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-05-11 20:41:14,265 | INFO | numexpr.utils | NumExpr defaulting to 8 threads.
+C:\Users\11839\AppData\Roaming\Python\Python311\site-packages\flaml\__init__.py:20: UserWarning: flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.
+  warnings.warn("flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.")
+2026-05-11 20:41:17,810 | INFO | src.persona_project_timeline_dataset.runner | Starting session timeline_smoke_test__project_01__session_01 live_members=['Ivy', 'Leo', 'Max', 'Mia'] presence={'Ivy': 'active', 'Leo': 'passive', 'Max': 'active', 'Mia': 'active'} speaker_policy=auto
+TaskHost (to chat_manager):
+
+你们是一组大学生，正在连续推进同一个课程项目。这是第 1/2 次讨论。
+
+项目标题：小组课程展示任务
+任务类型：course_presentation
+课程场景：大学通识课程小组展示
+交付物：课堂展示 PPT 和口头汇报
+项目难度：low
+时间跨度：五天后课堂展示
+项目背景：团队需要围绕课程主题完成一次 8 分钟课堂展示，包含主题切入、案例说明、分工演讲和结尾总结。
+
+当前项目状态：
+- 当前目标：围绕“小组课程展示任务”推进项目，并逐步形成可交付成果。
+- 进度水平：not_started
+- 截止压力：medium
+- 团队氛围：neutral
+
+已知结论：
+- 暂无明确结论。
+
+待解决问题：
+- 还没有确定 课堂展示 PPT 和口头汇报 的完整方案。
+
+已有分工：
+- 暂无稳定分工。
+
+最近发生的事件：
+- 目前还没有记录到额外操作事件。
+
+这个场景中常见的学生操作：
+- 找展示案例
+- 搭 PPT 目录
+- 分配讲稿
+- 排练展示
+
+可能出现的真实分歧：
+- 主题范围太大
+- 演讲分工不均
+
+可能自然结束的方式：
+- 先按现有主题做一版 PPT
+- 主题没定下来先各自找案例
+- 临近展示先锁定版本排练
+
+本次成员状态：
+- Ivy：正常参与，会实时发言。
+- Leo：在线但存在感较低，发言会偏少、偏短。
+- Max：正常参与，会实时发言。
+- Mia：正常参与，会实时发言。
+
+要求：
+1. 你们不是在开正式评审会，而是在自然讨论项目进展。
+2. 不要机械地覆盖固定议程，应该根据当前进展、遗留问题和成员状态自然展开。
+3. 允许有人吐槽、闲聊、抱怨、插科打诨或临时跑题，但整体仍要围绕这个项目。
+4. 允许自然的闲聊、抱怨和情绪表达，但不要长时间脱离项目。
+5. 这次讨论的结局不预设成功或失败，可以推进一些进展、谈崩、搁置、或者先散会等下一次再说。
+6. 不要在刚开场时就立刻散会，至少要出现几轮有效交流，或者明确暴露出真实分歧后，才适合结束。
+7. 如果讨论已经到一个自然停点，请用像真实学生一样的方式收尾，例如“今天先到这”“这个点先放一下”“那我晚点把文档传上来”。
+8. 如果你们决定自然结束本次讨论，请由任意一位成员在最后一条消息末尾单独补上一行 [[SESSION_END]]。这只是内部结束信号，不要解释它。
+
+--------------------------------------------------------------------------------
+TaskHost (to chat_manager):
+
+先别急着散会。围绕“小组课程展示任务”至少再推进一步。
+请至少明确以下三类内容中的一类：一个更具体的想法、一个明确分工、或者一个真实分歧点。
+当前项目状态仍然是：围绕“小组课程展示任务”推进项目，并逐步形成可交付成果。
+优先让这些还没充分发言的人接一句：Ivy、Leo、Max、Mia。
+每条消息只代表一个人，不要替别人写台词，也不要写成“Leo: ... Max: ...”这种格式。
+讨论可以自然、有口语感，但不要只说一句“今天先到这”。
+
+--------------------------------------------------------------------------------
+2026-05-11 20:41:20,291 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+[autogen.oai.client: 05-11 20:41:20] {351} WARNING - Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:41:20,300 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+
+Next speaker: Mia
+
+2026-05-11 20:41:25,311 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+[autogen.oai.client: 05-11 20:41:25] {351} WARNING - Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:41:25,312 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Mia (to chat_manager):
+
+大家好呀！又到了小组时间，感觉我们这个展示任务还挺有意思的，就是五天时间感觉有点紧凑呢。大家有没有初步的想法，比如想从哪个角度切入主题呀？我们先集思广益一下，不然感觉无从下手呢。
+
+--------------------------------------------------------------------------------
+2026-05-11 20:41:28,379 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+[autogen.oai.client: 05-11 20:41:28] {351} WARNING - Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:41:28,379 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+
+Next speaker: Ivy
+
+2026-05-11 20:41:33,461 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+[autogen.oai.client: 05-11 20:41:33] {351} WARNING - Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:41:33,462 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Ivy (to chat_manager):
+
+大家好呀！对啊，五天感觉是有点紧张，不过正好能激发点肾上腺素哈哈。
+
+我有一个新点子，我们这个通识课的主题其实挺广的，如果我们尝试不直接讲课本内容，而是从一个非常规的角度切入，比如，把某个宏大理论和我们日常生活中一个特别小的、甚至有点搞笑的现象结合起来讲？这样是不是会更出彩，也让老师觉得我们很有想法？
+
+比如说，如果主题是“社会心理学”，我们不讲从众效应、社会认同这些老生常谈的，而是讲“为什么大家在网上会突然集体迷恋某个表情包”或者“为什么大家宁愿排队也要买网红产品”这种，然后用社会心理学的一些原理去分析它。这样既有趣，又显得我们思考得深入。大家觉得这个方向怎么样？
+
+--------------------------------------------------------------------------------
+2026-05-11 20:41:41,625 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+[autogen.oai.client: 05-11 20:41:41] {351} WARNING - Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:41:41,626 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+
+Next speaker: Leo
+
+2026-05-11 20:41:52,581 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+[autogen.oai.client: 05-11 20:41:52] {351} WARNING - Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:41:52,582 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Leo (to chat_manager):
+
+这种切入方式，在短时间内，可能难以保证案例分析的学术严谨性和深度，容易让论证偏离课程理论的重点。
+
+--------------------------------------------------------------------------------
+2026-05-11 20:41:54,547 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+[autogen.oai.client: 05-11 20:41:54] {351} WARNING - Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:41:54,549 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+
+Next speaker: Mia
+
+2026-05-11 20:42:02,916 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+[autogen.oai.client: 05-11 20:42:02] {351} WARNING - Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:42:02,916 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Mia (to chat_manager):
+
+哇，Ivy这个点子真的好棒啊！我特别喜欢这种从日常生活切入的思路，肯定会比直接讲理论有趣很多，老师和同学听起来也会觉得耳目一新！确实，如果能把理论和这些我们都熟悉的现象结合起来，展示效果一定会非常好。
+
+Ivy提到的那个担忧我也觉得挺重要的，就是如何在有趣的同时，又能保证我们分析的深度和学术性，不偏离课程的重点。毕竟时间有点紧张，要找到一个完美契合的案例可能需要花点功夫。
+
+不过，我觉得这个方向我们完全可以探索一下！不如这样，我们先各自发散思维，找几个像Ivy说的，既有意思又能和课程理论搭上边的日常现象。我们不一定非要找特别‘搞笑’的，只要是能引发大家共鸣的小观察就行。然后我们再一起看看哪个案例最适合我们展开，这样既保留了新颖性，又能保证我们能把理论讲清楚，大家觉得怎么样？
+
+--------------------------------------------------------------------------------
+forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source             
+libifcoremd.dll    00007FF97606DF54  Unknown               Unknown  Unknown
+KERNELBASE.dll     00007FFAC107A3CD  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFAC213E8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FFAC36AC3FC  Unknown               Unknown  Unknown

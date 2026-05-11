@@ -1,0 +1,21 @@
+2026-05-11 20:39:12,841 | INFO | src.persona_project_timeline_dataset.runner | Starting project timeline_smoke_test__project_01 scenario=group_course_presentation planned_sessions=2
+2026-05-11 20:39:12,844 | ERROR | src.persona_project_timeline_dataset.cli | Run failed. Partial results saved.
+Traceback (most recent call last):
+  File "D:\PBL\PBL_Platform\PBLmerged\backend\autogen\src\persona_project_timeline_dataset\runner.py", line 757, in run_single_session
+    import autogen
+ModuleNotFoundError: No module named 'autogen'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\PBL\PBL_Platform\PBLmerged\backend\autogen\src\persona_project_timeline_dataset\cli.py", line 164, in main
+    for project_record in iter_projects(
+  File "D:\PBL\PBL_Platform\PBLmerged\backend\autogen\src\persona_project_timeline_dataset\runner.py", line 514, in iter_projects
+    yield run_project_timeline(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PBL\PBL_Platform\PBLmerged\backend\autogen\src\persona_project_timeline_dataset\runner.py", line 577, in run_project_timeline
+    session_record = run_single_session(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "D:\PBL\PBL_Platform\PBLmerged\backend\autogen\src\persona_project_timeline_dataset\runner.py", line 759, in run_single_session
+    raise RuntimeError(
+RuntimeError: AutoGen is not installed in the active environment. Install requirements.txt first.

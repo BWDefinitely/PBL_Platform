@@ -1,0 +1,285 @@
+{
+  "scenarios": [
+    {
+      "scenario_id": "campus_ai_learning_assistant",
+      "title": "校园 AI 学习助手课程项目",
+      "task_type": "course_project",
+      "course_context": "大学课程项目汇报小组",
+      "deliverable_type": "课程汇报方案与演示材料",
+      "deadline_span": "两周内完成阶段性汇报",
+      "difficulty": "medium",
+      "artifact_types": [
+        "research_notes",
+        "outline",
+        "slides"
+      ],
+      "project_brief": "团队需要围绕“校园 AI 学习助手”做课程项目方案，逐步完成目标用户定位、功能设计、最小可行版本和汇报材料。",
+      "initial_context": "这是一个需要多次推进的课程项目，不是一轮讨论就能彻底做完。",
+      "common_operations": [
+        "查找校园学习工具案例",
+        "搭建汇报大纲",
+        "制作演示 PPT",
+        "设计 demo 流程"
+      ],
+      "conflict_points": [
+        "AI 功能设想过大和课程项目可行性之间冲突",
+        "隐私数据来源是否可靠"
+      ],
+      "natural_endings": [
+        "先定 MVP 范围后散会",
+        "因功能取舍争不出结果暂时搁置",
+        "临近 deadline 先按可演示版本提交"
+      ]
+    },
+    {
+      "scenario_id": "education_data_lab_report",
+      "title": "教育数据分析实验报告",
+      "task_type": "lab_project",
+      "course_context": "教育技术课程实验报告小组",
+      "deliverable_type": "实验报告和结果汇报",
+      "deadline_span": "一周内提交实验报告",
+      "difficulty": "medium",
+      "artifact_types": [
+        "experiment_log",
+        "result_table",
+        "report_draft"
+      ],
+      "project_brief": "团队需要分工完成数据清洗、实验运行、结果解释和报告撰写，并在过程中处理分工不均、结果不稳定等问题。",
+      "initial_context": "项目会经历查资料、跑实验、解释结果、修改报告等多个阶段。",
+      "common_operations": [
+        "整理数据字段",
+        "运行分析脚本",
+        "截图实验结果",
+        "修改实验报告"
+      ],
+      "conflict_points": [
+        "实验结果和预期不一致",
+        "有人没有按时完成分工"
+      ],
+      "natural_endings": [
+        "先记录失败结果再约下一次重跑",
+        "结果解释暂时谈不拢而散会",
+        "临近提交先写局限性并交付"
+      ]
+    },
+    {
+      "scenario_id": "peer_teaching_workshop",
+      "title": "同伴教学工作坊设计",
+      "task_type": "teaching_design",
+      "course_context": "教育学课程中的小组教学设计任务",
+      "deliverable_type": "工作坊流程和展示材料",
+      "deadline_span": "十天后进行课堂展示",
+      "difficulty": "high",
+      "artifact_types": [
+        "lesson_plan",
+        "slides",
+        "activity_notes"
+      ],
+      "project_brief": "团队需要设计一个面向新生的同伴教学工作坊，包括活动流程、互动环节、分工安排和展示材料。",
+      "initial_context": "项目既要有教学设计，也要兼顾展示效果和可执行性。",
+      "common_operations": [
+        "查找教学活动案例",
+        "设计课堂互动环节",
+        "编辑教案",
+        "制作活动说明 PPT"
+      ],
+      "conflict_points": [
+        "活动创意和课堂时间限制冲突",
+        "展示效果和教学目标之间取舍困难"
+      ],
+      "natural_endings": [
+        "先确定一个低风险活动版本",
+        "对活动形式分歧较大暂时散会",
+        "先分头写教案和 PPT"
+      ]
+    },
+    {
+      "scenario_id": "group_course_presentation",
+      "title": "小组课程展示任务",
+      "task_type": "course_presentation",
+      "course_context": "大学通识课程小组展示",
+      "deliverable_type": "课堂展示 PPT 和口头汇报",
+      "deadline_span": "五天后课堂展示",
+      "difficulty": "low",
+      "artifact_types": [
+        "slides",
+        "speaker_notes",
+        "presentation_script"
+      ],
+      "project_brief": "团队需要围绕课程主题完成一次 8 分钟课堂展示，包含主题切入、案例说明、分工演讲和结尾总结。",
+      "initial_context": "任务时间短，重点是尽快定主题、分工和 PPT 框架。",
+      "common_operations": [
+        "找展示案例",
+        "搭 PPT 目录",
+        "分配讲稿",
+        "排练展示"
+      ],
+      "conflict_points": [
+        "主题范围太大",
+        "演讲分工不均"
+      ],
+      "natural_endings": [
+        "先按现有主题做一版 PPT",
+        "主题没定下来先各自找案例",
+        "临近展示先锁定版本排练"
+      ]
+    },
+    {
+      "scenario_id": "learning_analytics_assignment",
+      "title": "学习分析数据作业",
+      "task_type": "data_analysis_assignment",
+      "course_context": "学习分析课程数据作业小组",
+      "deliverable_type": "数据分析 notebook 和简短报告",
+      "deadline_span": "一周内提交",
+      "difficulty": "high",
+      "artifact_types": [
+        "notebook",
+        "result_table",
+        "report_draft"
+      ],
+      "project_brief": "团队需要使用一份匿名学习行为数据完成描述统计、可视化和简短解释，并把结果整理成 notebook 与报告。",
+      "initial_context": "项目涉及数据理解、代码运行、图表解释和报告写作。",
+      "common_operations": [
+        "读取数据",
+        "运行 notebook",
+        "生成图表",
+        "解释异常结果"
+      ],
+      "conflict_points": [
+        "代码运行失败",
+        "图表结果无法解释",
+        "成员 Python 水平差异大"
+      ],
+      "natural_endings": [
+        "先把能跑通的图表放进报告",
+        "代码问题暂时卡住等会后排查",
+        "高压下先提交带局限性的版本"
+      ]
+    },
+    {
+      "scenario_id": "startup_product_prototype",
+      "title": "教育产品创业原型",
+      "task_type": "product_prototype",
+      "course_context": "教育创新创业课程",
+      "deliverable_type": "产品原型、用户故事和路演材料",
+      "deadline_span": "三周后路演",
+      "difficulty": "high",
+      "artifact_types": [
+        "prototype",
+        "user_story",
+        "pitch_slides"
+      ],
+      "project_brief": "团队需要设计一个教育产品原型，明确用户痛点、核心功能、商业化想法和路演展示方式。",
+      "initial_context": "项目需要在创意、用户需求和原型可实现性之间反复取舍。",
+      "common_operations": [
+        "访谈目标用户",
+        "整理用户故事",
+        "制作低保真原型",
+        "修改路演 PPT"
+      ],
+      "conflict_points": [
+        "创意过大难以做出原型",
+        "成员对商业化方向分歧明显"
+      ],
+      "natural_endings": [
+        "先锁定一个核心用户痛点",
+        "商业模式争不拢暂时搁置",
+        "路演前先提交可演示原型"
+      ]
+    },
+    {
+      "scenario_id": "literature_review_team",
+      "title": "教育技术文献综述小组",
+      "task_type": "literature_review",
+      "course_context": "研究方法课程文献综述任务",
+      "deliverable_type": "文献矩阵和综述初稿",
+      "deadline_span": "两周后提交初稿",
+      "difficulty": "medium",
+      "artifact_types": [
+        "literature_matrix",
+        "research_notes",
+        "report_draft"
+      ],
+      "project_brief": "团队需要围绕一个教育技术主题检索文献、整理研究问题和方法，并形成综述初稿。",
+      "initial_context": "项目的难点是文献筛选标准、分工阅读和综述结构。",
+      "common_operations": [
+        "检索文献",
+        "整理文献矩阵",
+        "归纳研究主题",
+        "修改综述初稿"
+      ],
+      "conflict_points": [
+        "文献范围太宽",
+        "不同成员阅读深度不一致"
+      ],
+      "natural_endings": [
+        "先确定关键词和筛选标准",
+        "综述结构没谈拢先分头读文献",
+        "先交一版粗糙初稿再修改"
+      ]
+    },
+    {
+      "scenario_id": "online_collaboration_project",
+      "title": "线上协作课程项目",
+      "task_type": "online_collaboration",
+      "course_context": "远程协作学习任务",
+      "deliverable_type": "共享文档、线上展示和项目记录",
+      "deadline_span": "十天内线上提交",
+      "difficulty": "medium",
+      "artifact_types": [
+        "shared_document",
+        "meeting_notes",
+        "slides"
+      ],
+      "project_brief": "团队成员主要在线上沟通，需要通过共享文档和异步消息完成项目讨论、分工和最终展示。",
+      "initial_context": "项目容易受消息延迟、成员缺席和异步协作影响。",
+      "common_operations": [
+        "更新共享文档",
+        "补看聊天记录",
+        "上传会议纪要",
+        "异步修改 PPT"
+      ],
+      "conflict_points": [
+        "有人长期潜水",
+        "线上消息理解偏差"
+      ],
+      "natural_endings": [
+        "有人缺席导致会议提前结束",
+        "先在共享文档里继续异步改",
+        "临近提交直接合并现有内容"
+      ]
+    },
+    {
+      "scenario_id": "deadline_conflict_project",
+      "title": "临近 deadline 的高冲突项目",
+      "task_type": "deadline_crunch",
+      "course_context": "高压课程项目补救讨论",
+      "deliverable_type": "最低可提交版本和补救说明",
+      "deadline_span": "明晚截止",
+      "difficulty": "high",
+      "artifact_types": [
+        "minimum_submission",
+        "slides",
+        "report_draft"
+      ],
+      "project_brief": "团队前期推进缓慢，临近截止才开始集中补救，需要在冲突、抱怨和最低可交付版本之间做取舍。",
+      "initial_context": "项目已经拖延，讨论可能不欢而散，也可能被迫形成最低提交版本。",
+      "common_operations": [
+        "合并已有材料",
+        "删减功能范围",
+        "补写说明",
+        "提交最低版本"
+      ],
+      "conflict_points": [
+        "互相指责拖延责任",
+        "有人拒绝继续加班",
+        "最终版本质量明显不足"
+      ],
+      "natural_endings": [
+        "冲突升级后散会",
+        "只能先交最低版本",
+        "无人接活导致项目放弃"
+      ]
+    }
+  ]
+}

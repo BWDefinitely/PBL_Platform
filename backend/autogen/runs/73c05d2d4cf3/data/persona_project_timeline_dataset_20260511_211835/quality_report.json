@@ -1,0 +1,71 @@
+{
+  "dataset_name": "persona_project_timeline_benchmark_v2",
+  "status": "completed",
+  "project_count": 1,
+  "generated_at": "2026-05-11T21:22:22",
+  "total_session_count": 2,
+  "total_event_count": 1,
+  "warning_count": 0,
+  "warnings": [],
+  "projects": [
+    {
+      "project_id": "timeline_smoke_test__project_01",
+      "project_outcome": "completed",
+      "session_count": 2,
+      "event_count": 1,
+      "artifact_count": 1,
+      "session_outcome_counts": {
+        "progress_made_and_pause": 1,
+        "task_completed_for_now": 1
+      },
+      "final_decision_count": 7,
+      "final_assigned_work_count": 4,
+      "outcome_contradiction": false,
+      "warnings": [],
+      "sessions": [
+        {
+          "session_id": "timeline_smoke_test__project_01__session_01",
+          "meeting_index": 1,
+          "message_count": 12,
+          "speaker_message_counts": {
+            "Ivy": 3,
+            "Leo": 3,
+            "Max": 4,
+            "Mia": 2
+          },
+          "dominance_ratio": 0.333,
+          "event_count": 0,
+          "session_outcome": "progress_made_and_pause",
+          "pseudo_multi_speaker_turns": [],
+          "repeated_turn_count": 0,
+          "speaker_selection_policy": "auto",
+          "interruption_like_turns": [],
+          "silence_stop_used": false,
+          "speaker_selection_trace_count": 0,
+          "warnings": []
+        },
+        {
+          "session_id": "timeline_smoke_test__project_01__session_02",
+          "meeting_index": 2,
+          "message_count": 11,
+          "speaker_message_counts": {
+            "Max": 5,
+            "Ivy": 1,
+            "Mia": 3,
+            "Leo": 2
+          },
+          "dominance_ratio": 0.455,
+          "event_count": 0,
+          "session_outcome": "task_completed_for_now",
+          "pseudo_multi_speaker_turns": [],
+          "repeated_turn_count": 0,
+          "speaker_selection_policy": "auto",
+          "interruption_like_turns": [],
+          "silence_stop_used": false,
+          "speaker_selection_trace_count": 0,
+          "warnings": []
+        }
+      ]
+    }
+  ]
+}

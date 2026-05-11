@@ -1,0 +1,45 @@
+{
+  "extends": "experiment_groups_persona_composition.json",
+  "dataset_name": "persona_composition_urgency_timeline_benchmark_v2",
+  "description": "基于 persona 组合实验的 urgency_queue 自发发言版本。该配置保留原有 12 组 persona 组合，只将 AutoGen auto 选人替换为本地紧迫度队列，用于生成更自然的插话、沉默和抢话式学生团队对话。",
+  "output_prefix": "persona_composition_urgency_timeline_dataset",
+  "default_groupchat": {
+    "max_round": 14,
+    "speaker_selection_method": "urgency_queue",
+    "allow_repeat_speaker": false,
+    "turn_taking": {
+      "interrupt_threshold": 0.78,
+      "silence_threshold": 0.34,
+      "underparticipation_boost": 0.18,
+      "direct_mention_boost": 0.55,
+      "last_speaker_penalty": 0.35,
+      "max_consecutive_turns": 1,
+      "min_turns_before_silence": 7,
+      "trace_limit": 80
+    }
+  },
+  "generation_settings": {
+    "min_project_sessions_before_terminal": 5,
+    "force_project_closure_on_final_session": true
+  },
+  "group_defaults_override": {
+    "speaker_selection_method": "urgency_queue",
+    "session_count_range": [
+      5,
+      8
+    ],
+    "turn_taking": {
+      "interrupt_threshold": 0.78,
+      "silence_threshold": 0.34,
+      "underparticipation_boost": 0.18,
+      "direct_mention_boost": 0.55,
+      "last_speaker_penalty": 0.35,
+      "max_consecutive_turns": 1,
+      "min_turns_before_silence": 7,
+      "trace_limit": 80
+    },
+    "tags": [
+      "urgency_queue"
+    ]
+  }
+}

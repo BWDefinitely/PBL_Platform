@@ -9,6 +9,8 @@ from src.modules.project.intervention_router import router as intervention_route
 from src.modules.project.router import router as project_router
 from src.modules.report.router import router as report_router
 from src.modules.generator.router import router as generator_router
+from src.modules.priority.router import router as priority_router
+from src.modules.autogen.router import router as autogen_router
 
 settings = get_settings()
 
@@ -40,3 +42,5 @@ app.include_router(intervention_router)
 app.include_router(assessment_router)
 app.include_router(report_router)
 app.include_router(generator_router)
+app.include_router(priority_router)
+app.include_router(autogen_router)

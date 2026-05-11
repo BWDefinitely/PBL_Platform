@@ -1,0 +1,13 @@
+# 配置说明（Configuration Guide）
+
+列出 `__PROJECT_NAME__` 中所有可以人工配置的文件。
+
+对于每个文件，至少说明：
+
+- 路径（path）
+- 用途（purpose）
+- 必填字段（required fields）
+- 可选字段（optional fields）
+- 示例值（example values）
+- 常见错误（common errors）
+- 安全说明（security notes）

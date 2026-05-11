@@ -1,0 +1,166 @@
+{
+  "schema_version": "project_timeline_v2",
+  "dataset_name": "persona_project_timeline_benchmark_v2",
+  "description": "面向教育场景的自然学生团队对话生成实验。每个项目实例包含多次连续会议、项目状态承接和文本化操作事件。",
+  "output_prefix": "persona_project_timeline_dataset",
+  "manager_system_message": "你是学生项目讨论的流程协调者。你的职责是保持讨论自然、减少机械重复、在需要时轻微拉回项目主线，并让会议在自然停点结束。",
+  "default_groupchat": {
+    "max_round": 12,
+    "speaker_selection_method": "auto",
+    "allow_repeat_speaker": false,
+    "temperature": 0.8,
+    "tags": [
+      "timeline_v2"
+    ]
+  },
+  "generation_settings": {
+    "min_effective_messages": 8,
+    "min_participating_speakers": 3,
+    "repair_max_rounds": 2,
+    "enable_closer": true,
+    "enable_event_controller": false,
+    "enable_quality_diagnostics": true,
+    "session_timeout_seconds": 120,
+    "incremental_conversation_timeline": true
+  },
+  "groups": [
+    {
+      "group_id": "timeline_smoke_test",
+      "scenario_id": "group_course_presentation",
+      "member_role_ids": [
+        "initiator_proposer",
+        "evaluator_critic",
+        "implementer_worker",
+        "harmonizer"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        2,
+        2
+      ],
+      "offtopic_tendency": "medium",
+      "attendance_variability": "low",
+      "deadline_pressure_curve": "ramp_up",
+      "tags": [
+        "timeline",
+        "smoke_test"
+      ]
+    },
+    {
+      "group_id": "timeline_positive_4",
+      "scenario_id": "campus_ai_learning_assistant",
+      "member_role_ids": [
+        "initiator_proposer",
+        "evaluator_critic",
+        "implementer_worker",
+        "harmonizer"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        5
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "medium",
+      "deadline_pressure_curve": "ramp_up",
+      "tags": [
+        "timeline",
+        "positive"
+      ]
+    },
+    {
+      "group_id": "timeline_positive_5",
+      "scenario_id": "peer_teaching_workshop",
+      "member_role_ids": [
+        "initiator_proposer",
+        "information_seeker",
+        "implementer_worker",
+        "gatekeeper_expediter",
+        "encourager"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        4,
+        6
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "medium",
+      "deadline_pressure_curve": "ramp_up",
+      "tags": [
+        "timeline",
+        "positive"
+      ]
+    },
+    {
+      "group_id": "timeline_mixed_free_rider",
+      "scenario_id": "education_data_lab_report",
+      "member_role_ids": [
+        "initiator_proposer",
+        "implementer_worker",
+        "gatekeeper_expediter",
+        "encourager",
+        "free_rider"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        4,
+        6
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "high",
+      "deadline_pressure_curve": "late_crunch",
+      "tags": [
+        "timeline",
+        "mixed",
+        "free_rider"
+      ]
+    },
+    {
+      "group_id": "timeline_mixed_dominator",
+      "scenario_id": "campus_ai_learning_assistant",
+      "member_role_ids": [
+        "initiator_proposer",
+        "evaluator_critic",
+        "harmonizer",
+        "information_seeker",
+        "dominator"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        4,
+        6
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "medium",
+      "deadline_pressure_curve": "ramp_up",
+      "tags": [
+        "timeline",
+        "mixed",
+        "dominator"
+      ]
+    },
+    {
+      "group_id": "timeline_high_conflict",
+      "scenario_id": "education_data_lab_report",
+      "member_role_ids": [
+        "implementer_worker",
+        "lone_wolf",
+        "dominator",
+        "blocker"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        5
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "high",
+      "deadline_pressure_curve": "late_crunch",
+      "tags": [
+        "timeline",
+        "negative",
+        "conflict"
+      ]
+    }
+  ]
+}

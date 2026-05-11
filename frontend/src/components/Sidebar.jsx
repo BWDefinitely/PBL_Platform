@@ -9,6 +9,9 @@ const teacherNav = [
     { path: '/teacher/evaluation', icon: '📈', label: 'AI过程评估' },
     { path: '/teacher/decision-support', icon: '🎯', label: '决策支持中心' },
   ]},
+  { section: '测试工具', items: [
+    { path: '/teacher/ai-data-generator', icon: '🧪', label: 'AI生成数据（测试）' },
+  ]},
 ];
 
 const studentNav = [

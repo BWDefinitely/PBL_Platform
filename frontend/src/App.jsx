@@ -9,6 +9,7 @@ import TaskManagement from './pages/teacher/TaskManagement';
 import ProcessData from './pages/teacher/ProcessData';
 import Evaluation from './pages/teacher/Evaluation';
 import DecisionSupport from './pages/teacher/DecisionSupport';
+import AIDataGenerator from './pages/teacher/AIDataGenerator';
 import StudentDashboard from './pages/student/StudentDashboard';
 import StudentTasks from './pages/student/StudentTasks';
 import StudentReport from './pages/student/StudentReport';
@@ -71,6 +72,7 @@ function AppContent() {
           <Route path="/teacher/process-data" element={<ProcessData />} />
           <Route path="/teacher/evaluation" element={<Evaluation />} />
           <Route path="/teacher/decision-support" element={<DecisionSupport />} />
+          <Route path="/teacher/ai-data-generator" element={<AIDataGenerator />} />
 
           {/* Student Routes */}
           <Route path="/student/dashboard" element={<StudentDashboard />} />

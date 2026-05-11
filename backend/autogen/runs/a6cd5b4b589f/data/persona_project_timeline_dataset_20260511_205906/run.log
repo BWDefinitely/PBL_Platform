@@ -1,0 +1,106 @@
+2026-05-11 20:59:06,792 | INFO | src.persona_project_timeline_dataset.runner | Starting project timeline_smoke_test__project_01 scenario=group_course_presentation planned_sessions=2
+2026-05-11 20:59:09,638 | INFO | numexpr.utils | Note: NumExpr detected 32 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-05-11 20:59:09,638 | INFO | numexpr.utils | NumExpr defaulting to 8 threads.
+2026-05-11 20:59:12,638 | INFO | src.persona_project_timeline_dataset.runner | Starting session timeline_smoke_test__project_01__session_01 live_members=['Ivy', 'Leo', 'Max', 'Mia'] presence={'Ivy': 'active', 'Leo': 'passive', 'Max': 'active', 'Mia': 'active'} speaker_policy=auto
+2026-05-11 20:59:15,854 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 20:59:15,860 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:59:22,266 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 20:59:22,266 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:59:33,075 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 20:59:33,075 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:59:39,572 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 20:59:39,574 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:59:42,628 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 20:59:42,628 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:59:48,547 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 20:59:48,548 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 20:59:53,690 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 20:59:53,690 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:00:00,632 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:00:00,632 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:00:03,965 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:00:03,965 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:00:12,484 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:00:12,485 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:00:15,875 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:00:15,876 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:00:22,289 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:00:22,289 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:00:26,679 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:00:26,682 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:00:31,715 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:00:31,715 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:00:34,653 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:00:34,653 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:01:24,574 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:01:24,574 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:01:27,512 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:01:27,512 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:01:36,709 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:01:36,710 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:01:40,023 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:01:40,027 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:01:47,189 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:01:47,191 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:01:50,125 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:01:50,126 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:01:57,753 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:01:57,754 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:02:04,708 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:02:04,709 | WARNING | autogen.oai.client | Model gpt-4.1-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:02:08,152 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:02:08,152 | WARNING | autogen.oai.client | Model gpt-4.1-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:02:08,152 | INFO | src.persona_project_timeline_dataset.runner | Finished session timeline_smoke_test__project_01__session_01 messages=12 outcome=progress_made_and_pause end_signal=continue
+2026-05-11 21:02:10,325 | INFO | src.persona_project_timeline_dataset.runner | Starting session timeline_smoke_test__project_01__session_02 live_members=['Ivy', 'Leo', 'Max', 'Mia'] presence={'Ivy': 'active', 'Leo': 'active', 'Max': 'active', 'Mia': 'passive'} speaker_policy=auto
+2026-05-11 21:02:13,573 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:02:13,573 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:02:28,183 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:02:28,183 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:02:35,207 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:02:35,207 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:02:40,643 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:02:40,643 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:02:53,044 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:02:53,046 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:02:58,871 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:02:58,872 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:03:07,228 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:03:07,228 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:03:12,165 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:03:12,165 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:03:20,629 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:03:20,630 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:03:27,680 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:03:27,681 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:03:30,726 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:03:30,727 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:03:34,083 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:03:34,084 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:03:37,264 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:03:37,265 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:03:42,418 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:03:42,419 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:03:45,677 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:03:45,678 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:03:49,292 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:03:49,292 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:03:52,276 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:03:52,276 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:04:02,011 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:04:02,012 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:04:08,974 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:04:08,974 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:04:29,734 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:04:29,735 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:04:32,844 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:04:32,845 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:04:36,818 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:04:36,820 | WARNING | autogen.oai.client | Model gemini-2.5-flash is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:04:48,099 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:04:48,099 | WARNING | autogen.oai.client | Model gpt-4.1-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:04:51,342 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:04:51,344 | WARNING | autogen.oai.client | Model gpt-4.1-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:04:51,345 | INFO | src.persona_project_timeline_dataset.runner | Finished session timeline_smoke_test__project_01__session_02 messages=12 outcome=progress_made_and_pause end_signal=forced_submission
+2026-05-11 21:04:51,345 | INFO | src.persona_project_timeline_dataset.runner | Ignoring early terminal signal for timeline_smoke_test__project_01 at session 2: forced_submission
+2026-05-11 21:04:51,356 | INFO | src.persona_project_timeline_dataset.runner | Finished project timeline_smoke_test__project_01 sessions=2 outcome=completed
+2026-05-11 21:04:51,370 | INFO | src.persona_project_timeline_dataset.cli | Checkpoint saved for timeline_smoke_test__project_01 at D:\PBL\PBL_Platform\PBLmerged\backend\autogen\runs\a6cd5b4b589f\data\persona_project_timeline_dataset_20260511_205906\state.json

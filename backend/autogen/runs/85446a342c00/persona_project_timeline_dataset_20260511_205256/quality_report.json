@@ -1,0 +1,74 @@
+{
+  "dataset_name": "persona_project_timeline_benchmark_v2",
+  "status": "completed",
+  "project_count": 1,
+  "generated_at": "2026-05-11T20:56:40",
+  "total_session_count": 2,
+  "total_event_count": 1,
+  "warning_count": 1,
+  "warnings": [
+    "所有 session_outcome 完全相同，结局类型多样性不足。"
+  ],
+  "projects": [
+    {
+      "project_id": "timeline_smoke_test__project_01",
+      "project_outcome": "abandoned",
+      "session_count": 2,
+      "event_count": 1,
+      "artifact_count": 1,
+      "session_outcome_counts": {
+        "progress_made_and_pause": 2
+      },
+      "final_decision_count": 0,
+      "final_assigned_work_count": 2,
+      "outcome_contradiction": false,
+      "warnings": [
+        "所有 session_outcome 完全相同，结局类型多样性不足。"
+      ],
+      "sessions": [
+        {
+          "session_id": "timeline_smoke_test__project_01__session_01",
+          "meeting_index": 1,
+          "message_count": 12,
+          "speaker_message_counts": {
+            "Mia": 4,
+            "Leo": 3,
+            "Max": 3,
+            "Ivy": 2
+          },
+          "dominance_ratio": 0.333,
+          "event_count": 0,
+          "session_outcome": "progress_made_and_pause",
+          "pseudo_multi_speaker_turns": [],
+          "repeated_turn_count": 0,
+          "speaker_selection_policy": "auto",
+          "interruption_like_turns": [],
+          "silence_stop_used": false,
+          "speaker_selection_trace_count": 0,
+          "warnings": []
+        },
+        {
+          "session_id": "timeline_smoke_test__project_01__session_02",
+          "meeting_index": 2,
+          "message_count": 12,
+          "speaker_message_counts": {
+            "Ivy": 4,
+            "Leo": 5,
+            "Mia": 1,
+            "Max": 2
+          },
+          "dominance_ratio": 0.417,
+          "event_count": 0,
+          "session_outcome": "progress_made_and_pause",
+          "pseudo_multi_speaker_turns": [],
+          "repeated_turn_count": 0,
+          "speaker_selection_policy": "auto",
+          "interruption_like_turns": [],
+          "silence_stop_used": false,
+          "speaker_selection_trace_count": 0,
+          "warnings": []
+        }
+      ]
+    }
+  ]
+}

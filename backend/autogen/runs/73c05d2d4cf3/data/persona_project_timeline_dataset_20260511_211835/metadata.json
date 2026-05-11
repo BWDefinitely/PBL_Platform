@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-05-11T21:18:35",
+  "dataset_name": "persona_project_timeline_benchmark_v2",
+  "schema_version": "project_timeline_v2",
+  "experiment_source": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\configs\\experiment_groups_timeline.json",
+  "selected_group_ids": [
+    "timeline_smoke_test"
+  ],
+  "model_config_summary": {
+    "dialogue": [
+      {
+        "model": "gpt-5.4-mini",
+        "base_url": "https://jeniya.cn/v1",
+        "api_type": null,
+        "api_version": null
+      }
+    ],
+    "controller": [
+      {
+        "model": "gpt-5.4-mini",
+        "base_url": "https://jeniya.cn/v1",
+        "api_type": null,
+        "api_version": null
+      }
+    ]
+  },
+  "generation_settings": {
+    "min_effective_messages": 8,
+    "min_participating_speakers": 3,
+    "repair_max_rounds": 2,
+    "enable_closer": true,
+    "enable_event_controller": false,
+    "enable_quality_diagnostics": true,
+    "session_timeout_seconds": 120,
+    "incremental_conversation_timeline": true,
+    "min_project_sessions_before_terminal": 4,
+    "force_project_closure_on_final_session": true
+  },
+  "artifacts": {
+    "projects_jsonl": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\runs\\73c05d2d4cf3\\data\\persona_project_timeline_dataset_20260511_211835\\projects.jsonl",
+    "project_checkpoints_jsonl": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\runs\\73c05d2d4cf3\\data\\persona_project_timeline_dataset_20260511_211835\\project_checkpoints.jsonl",
+    "conversation_timeline_txt": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\runs\\73c05d2d4cf3\\data\\persona_project_timeline_dataset_20260511_211835\\conversation_timeline.txt",
+    "behavior_timeline_txt": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\runs\\73c05d2d4cf3\\data\\persona_project_timeline_dataset_20260511_211835\\behavior_timeline.txt",
+    "behavior_events_jsonl": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\runs\\73c05d2d4cf3\\data\\persona_project_timeline_dataset_20260511_211835\\behavior_events.jsonl",
+    "quality_report_json": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\runs\\73c05d2d4cf3\\data\\persona_project_timeline_dataset_20260511_211835\\quality_report.json",
+    "quality_report_md": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\runs\\73c05d2d4cf3\\data\\persona_project_timeline_dataset_20260511_211835\\quality_report.md",
+    "state_json": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\runs\\73c05d2d4cf3\\data\\persona_project_timeline_dataset_20260511_211835\\state.json",
+    "final_dataset_json": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\runs\\73c05d2d4cf3\\data\\persona_project_timeline_dataset_20260511_211835\\final_dataset.json",
+    "log_file": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\runs\\73c05d2d4cf3\\data\\persona_project_timeline_dataset_20260511_211835\\run.log"
+  }
+}

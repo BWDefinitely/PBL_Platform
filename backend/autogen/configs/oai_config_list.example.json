@@ -1,0 +1,16 @@
+{
+  "dialogue": [
+    {
+      "model": "gpt-5.4-mini",
+      "api_key": "sk-sZrlbu7OV3eVqviPC1tAOoghL5copn29DmCS8CeFPxSf8ZHQ",
+      "base_url": "https://jeniya.cn/v1"
+    }
+  ],
+  "controller": [
+    {
+      "model": "gpt-5.4-mini",
+      "api_key": "sk-sZrlbu7OV3eVqviPC1tAOoghL5copn29DmCS8CeFPxSf8ZHQ",
+      "base_url": "https://jeniya.cn/v1"
+    }
+  ]
+}

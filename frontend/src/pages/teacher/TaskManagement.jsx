@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { tasks, teams, students, projects } from '../../data/mockData';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from 'recharts';
+import PriorityAI from '../shared/PriorityAI';
 
 export default function TaskManagement() {
   const [activeTeam, setActiveTeam] = useState('team1');
@@ -78,9 +79,16 @@ export default function TaskManagement() {
         <button className={`btn btn-sm ${view === 'timeline' ? 'btn-secondary' : 'btn-outline'}`} onClick={() => setView('timeline')}>
           📈 进度
         </button>
+        <button className={`btn btn-sm ${view === 'priority' ? 'btn-secondary' : 'btn-outline'}`} onClick={() => setView('priority')}>
+          🤖 PriorityAI
+        </button>
       </div>
 
-      {view === 'board' ? (
+      {view === 'priority' ? (
+        <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
+          <PriorityAI />
+        </div>
+      ) : view === 'board' ? (
         <div className="task-board">
           <div className="task-column">
             <div className="task-column-header">

@@ -1,0 +1,104 @@
+2026-05-11 21:18:35,210 | INFO | src.persona_project_timeline_dataset.runner | Starting project timeline_smoke_test__project_01 scenario=group_course_presentation planned_sessions=2
+2026-05-11 21:18:37,994 | INFO | numexpr.utils | Note: NumExpr detected 32 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-05-11 21:18:37,995 | INFO | numexpr.utils | NumExpr defaulting to 8 threads.
+2026-05-11 21:18:41,048 | INFO | src.persona_project_timeline_dataset.runner | Starting session timeline_smoke_test__project_01__session_01 live_members=['Ivy', 'Leo', 'Max', 'Mia'] presence={'Ivy': 'active', 'Leo': 'passive', 'Max': 'active', 'Mia': 'active'} speaker_policy=auto
+2026-05-11 21:18:43,553 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:18:43,559 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:18:46,366 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:18:46,366 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:18:48,325 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:18:48,326 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:18:55,251 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:18:55,252 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:18:57,213 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:18:57,214 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:19:07,615 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:19:07,616 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:19:11,656 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:19:11,658 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:19:15,341 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:19:15,341 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:19:21,210 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:19:21,211 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:19:26,494 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:19:26,495 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:19:28,698 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:19:28,698 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:19:31,347 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:19:31,349 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:19:34,027 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:19:34,029 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:19:37,739 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:19:37,739 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:19:43,572 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:19:43,572 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:19:48,702 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:19:48,703 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:19:51,092 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:19:51,093 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:19:54,117 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:19:54,117 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:20:02,199 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:20:02,199 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:20:07,247 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:20:07,248 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:20:11,968 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:20:11,969 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:20:17,143 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:20:17,143 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:20:26,261 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:20:26,262 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:20:30,394 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:20:30,395 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:20:30,395 | INFO | src.persona_project_timeline_dataset.runner | Finished session timeline_smoke_test__project_01__session_01 messages=12 outcome=progress_made_and_pause end_signal=continue
+2026-05-11 21:20:32,244 | INFO | src.persona_project_timeline_dataset.runner | Starting session timeline_smoke_test__project_01__session_02 live_members=['Ivy', 'Leo', 'Max', 'Mia'] presence={'Ivy': 'active', 'Leo': 'passive', 'Max': 'passive', 'Mia': 'active'} speaker_policy=auto
+2026-05-11 21:20:34,238 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:20:34,238 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:20:40,721 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:20:40,721 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:20:43,245 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:20:43,246 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:20:52,296 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:20:52,297 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:20:55,735 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:20:55,736 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:20:57,900 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:20:57,901 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:21:00,956 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:21:00,957 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:21:08,502 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:21:08,503 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:21:12,167 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:21:12,168 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:21:17,385 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:21:17,386 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:21:23,067 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:21:23,068 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:21:27,858 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:21:27,859 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:21:33,418 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:21:33,419 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:21:37,653 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:21:37,654 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:21:47,306 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:21:47,306 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:21:51,341 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:21:51,341 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:21:56,454 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:21:56,455 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:21:59,500 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:21:59,500 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:22:01,507 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:22:01,508 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:22:04,742 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:22:04,742 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:22:10,980 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:22:10,980 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:22:15,118 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:22:15,119 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:22:22,686 | INFO | httpx | HTTP Request: POST https://jeniya.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 21:22:22,687 | WARNING | autogen.oai.client | Model gpt-5.4-mini is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+2026-05-11 21:22:22,687 | INFO | src.persona_project_timeline_dataset.runner | Finished session timeline_smoke_test__project_01__session_02 messages=11 outcome=task_completed_for_now end_signal=forced_submission
+2026-05-11 21:22:22,687 | INFO | src.persona_project_timeline_dataset.runner | Ignoring early terminal signal for timeline_smoke_test__project_01 at session 2: forced_submission
+2026-05-11 21:22:22,693 | INFO | src.persona_project_timeline_dataset.runner | Finished project timeline_smoke_test__project_01 sessions=2 outcome=completed
+2026-05-11 21:22:22,696 | INFO | src.persona_project_timeline_dataset.cli | Checkpoint saved for timeline_smoke_test__project_01 at D:\PBL\PBL_Platform\PBLmerged\backend\autogen\runs\73c05d2d4cf3\data\persona_project_timeline_dataset_20260511_211835\state.json

@@ -1,0 +1,48 @@
+{
+  "schema_version": "project_timeline_v2",
+  "dataset_name": "persona_project_timeline_benchmark_v2",
+  "description": "面向教育场景的自然学生团队对话生成实验。每个项目实例包含多次连续会议、项目状态承接和文本化操作事件。",
+  "generated_at": "2026-05-11T20:39:16",
+  "updated_at": "2026-05-11T20:39:16",
+  "status": "failed",
+  "persona_source": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\persona.json",
+  "scenario_source": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\configs\\scenarios_timeline.json",
+  "experiment_source": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\configs\\experiment_groups_timeline.json",
+  "model_config_summary": {
+    "dialogue": [
+      {
+        "model": "gemini-2.5-flash",
+        "base_url": "https://jeniya.cn/v1",
+        "api_type": null,
+        "api_version": null
+      }
+    ],
+    "controller": [
+      {
+        "model": "gpt-4.1-mini",
+        "base_url": "https://jeniya.cn/v1",
+        "api_type": null,
+        "api_version": null
+      }
+    ]
+  },
+  "generation_settings": {
+    "min_effective_messages": 8,
+    "min_participating_speakers": 3,
+    "repair_max_rounds": 2,
+    "enable_closer": true,
+    "enable_event_controller": false,
+    "enable_quality_diagnostics": true,
+    "session_timeout_seconds": 120,
+    "incremental_conversation_timeline": true,
+    "min_project_sessions_before_terminal": 4,
+    "force_project_closure_on_final_session": true
+  },
+  "selected_group_ids": [
+    "timeline_smoke_test"
+  ],
+  "run_directory": "D:\\PBL\\PBL_Platform\\PBLmerged\\backend\\autogen\\outputs\\persona_project_timeline_dataset_20260511_203916",
+  "projects": [],
+  "ended_at": "2026-05-11T20:39:16",
+  "error": "RuntimeError: AutoGen is not installed in the active environment. Install requirements.txt first."
+}

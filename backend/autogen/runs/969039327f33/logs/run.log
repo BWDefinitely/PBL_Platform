@@ -1,0 +1,7 @@
+$ C:\ProgramData\anaconda3\python.exe -u _run_entry.py run_timeline_experiments.py --config-list-file configs/oai_config_list.json --smoke-test --output-dir runs/969039327f33/data
+# logs_dir=D:\PBL\PBL_Platform\backend\autogen\runs\969039327f33\logs
+# data_dir=D:\PBL\PBL_Platform\backend\autogen\runs\969039327f33\data
+
+2026-05-11 21:39:07,990 | INFO | src.persona_project_timeline_dataset.runner | Starting project timeline_smoke_test__project_01 scenario=group_course_presentation planned_sessions=2
+C:\ProgramData\anaconda3\Lib\site-packages\paramiko\transport.py:219: CryptographyDeprecationWarning: Blowfish has been deprecated and will be removed in a future release
+  "class": algorithms.Blowfish,

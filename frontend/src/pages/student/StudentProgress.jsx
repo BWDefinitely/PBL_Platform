@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { tasks, students, teams, projects } from '../../data/mockData';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from 'recharts';
+import PriorityAI from '../shared/PriorityAI';
 
 const currentStudent = students[0]; // 张三
 const team = teams.find(t => t.members.includes(currentStudent.id));
@@ -117,7 +118,16 @@ export default function StudentProgress() {
         <button className={`btn btn-sm ${view === 'timeline' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setView('timeline')}>
           📅 时间线
         </button>
+        <button className={`btn btn-sm ${view === 'priority' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setView('priority')}>
+          🤖 PriorityAI
+        </button>
       </div>
+
+      {view === 'priority' && (
+        <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
+          <PriorityAI />
+        </div>
+      )}
 
       {/* 看板视图 */}
       {view === 'board' && (

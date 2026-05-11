@@ -1,0 +1,130 @@
+# 文件角色与维护规则（File Roles Guide）
+
+本文件说明项目中各个 Markdown 文件分别记录什么内容、由谁维护、什么时候更新，以及如果需要手动触发更新，应该怎么下指令。
+
+## 1. 维护模式总览
+
+当前记录体系不是后台全自动（fully automatic），而是采用：
+
+- `AI 主动维护`：代码修改、调试、配置调整、实验运行后，AI 应主动同步关键文档。
+- `用户手动触发，AI 负责整理`：面试材料、论文素材、项目规范、对外介绍等需要用户明确目标后整理。
+- `脚本辅助维护`：如项目中存在记录脚本，可以用于追加事件、补录历史、采集运行上下文。
+
+## 2. 各文件维护规则总表
+
+| 文件 | 记录内容 | 维护方式 | 默认谁来维护 | 什么时候更新 |
+|---|---|---|---|---|
+| `README.md` | 项目入口、快速入门、运行方法、主要文件索引 | AI 按需维护 | AI 为主，用户确认关键表述 | 项目能力、运行方式、目录结构变化时 |
+| `docs/project_context.md` | 完整项目背景、目标、结构、当前能力 | AI 按需维护 | AI 为主，用户确认项目背景 | 项目目标、架构边界、阶段定位明显变化时 |
+| `docs/architecture.md` | 技术架构、模块职责、数据流、运行链路 | AI 按需维护 | AI 为主 | 核心模块、流程、输出机制变化时 |
+| `docs/dev_journal.md` | 开发时间线、问题、根因、解决方案、验证 | AI 主动维护 | AI 为主 | 每次关键开发动作后 |
+| `docs/project_status.md` | 当前阶段、当前目标、已完成、进行中、下一步、风险 | AI 主动维护 | AI 为主 | 阶段变化或任务推进后 |
+| `docs/decisions.md` | 长期有效的关键技术和工程决策 | AI 按需维护 | AI 起草，用户确认重大决策 | 技术路线、框架选择、关键规范变化时 |
+| `docs/learning_notes.md` | 技术原理、方案比较、踩坑、学习记录 | AI 主动维护 | AI 为主，用户可要求展开 | 出现新知识点或新坑时 |
+| `docs/config_guide.md` | 可配置文件说明、字段解释、常见错误 | AI 主动维护 | AI 为主 | 配置文件或字段变更时 |
+| `docs/case_study.md` | 面试、论文、复盘素材 | 用户手动触发 | 用户定方向，AI 整理 | 阶段成果形成后 |
+| `AGENTS.md` | AI 工作规则和记录规范 | 用户手动触发 | 用户主导，AI 辅助 | 规则、习惯、记录制度变化时 |
+
+## 3. 默认由 AI 主动维护的文件
+
+默认优先维护：
+
+- `docs/dev_journal.md`
+- `docs/project_status.md`
+- `docs/learning_notes.md`
+- `docs/config_guide.md`
+
+视情况维护：
+
+- `README.md`
+- `docs/project_context.md`
+- `docs/architecture.md`
+- `docs/decisions.md`
+
+通常不主动改，等用户明确要求再维护：
+
+- `docs/case_study.md`
+- `AGENTS.md`
+
+## 4. 常用手动触发指令
+
+### 同步本次开发记录
+
+```text
+请把本次代码修改、问题原因、解决方案和验证结果记录到 dev_journal.md，并同步更新 project_status.md。
+```
+
+### 同步技术学习记录
+
+```text
+请把这次涉及到的技术原理、方案比较、使用方法和踩坑点整理到 learning_notes.md。
+```
+
+### 同步配置说明
+
+```text
+请检查这次配置文件改动，并同步更新 config_guide.md。
+```
+
+### 同步架构说明
+
+```text
+请根据当前代码结构和运行流程更新 architecture.md。
+```
+
+### 同步完整项目上下文
+
+```text
+请根据当前项目进展更新 project_context.md，重点保证后续 AI 读取后能恢复完整背景和上下文。
+```
+
+### 同步长期决策
+
+```text
+请把这次关键技术决策整理到 decisions.md，写清背景、备选方案、最终选择、理由和影响。
+```
+
+### 整理阶段成果为面试素材
+
+```text
+请把当前阶段整理成 case_study.md，按面试项目经历的讲述方式组织内容。
+```
+
+### 整理阶段成果为论文素材
+
+```text
+请把当前阶段整理成 case_study.md，按论文/研究计划素材的方式组织内容。
+```
+
+### 修改 AI 工作规则
+
+```text
+请更新 AGENTS.md，把后续文档维护规则固定下来。
+```
+
+## 5. 推荐阅读顺序
+
+第一次了解项目：
+
+1. `README.md`
+2. `docs/project_context.md`
+3. `docs/architecture.md`
+4. `docs/config_guide.md`
+
+隔几天后恢复开发：
+
+1. `docs/project_status.md`
+2. `docs/dev_journal.md`
+3. `docs/decisions.md`
+
+学习技术细节：
+
+1. `docs/learning_notes.md`
+2. `docs/decisions.md`
+3. 源代码中对应模块
+
+复盘或对外表达：
+
+1. `docs/case_study.md`
+2. `docs/dev_journal.md`
+3. `docs/project_context.md`

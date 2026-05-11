@@ -1,0 +1,37 @@
+# 项目级 AI 工作规则（Project AGENTS）
+
+本项目使用统一项目记录体系。除非用户明确要求暂停记录，否则 AI 在进行开发、调试、配置修改和实验运行时，应同步维护相关 Markdown 文档。
+
+## 1. 启动规则
+
+- 开始实质性工作前，先检查是否存在 `docs/` 记录骨架。
+- 如果是新项目，先建立记录骨架，再开始开发。
+- 如果是已有项目但记录不完整，先补一版阶段总结，再进入实时记录模式。
+- 工作前优先阅读 `README.md`、`docs/project_context.md`、`docs/project_status.md` 和 `docs/file_roles.md`。
+
+## 2. 实时记录规则
+
+- 每次关键代码修改、bug 排查、配置调整、运行验证后，更新 `docs/dev_journal.md`。
+- 每次阶段目标、当前进展、下一步或风险变化后，更新 `docs/project_status.md`。
+- 每次涉及新技术、新坑、重要原理或 Python 基础知识时，更新 `docs/learning_notes.md`。
+- 每次新增或修改人工可配置文件时，更新 `docs/config_guide.md`。
+- 每次出现长期有效的技术路线选择时，更新 `docs/decisions.md`。
+
+## 3. 文档分工
+
+- `README.md`：对外入口，只写项目是什么、怎么运行、主要文件在哪里。
+- `docs/project_context.md`：完整项目背景和上下文恢复说明。
+- `docs/dev_journal.md`：详细开发时间线。
+- `docs/project_status.md`：当前状态快照，不写完整历史。
+- `docs/architecture.md`：技术架构、模块职责、运行链路。
+- `docs/config_guide.md`：配置文件说明和手动调整方法。
+- `docs/learning_notes.md`：技术学习记录。
+- `docs/case_study.md`：面试、论文、复盘素材，默认等用户触发。
+- `docs/file_roles.md`：各文档怎么维护。
+
+## 4. 代码与配置要求
+
+- 对关键代码步骤和不直观逻辑增加教学式注释。
+- 不要在文档中写入真实 API key、token、密码或隐私路径。
+- 输出示例和配置示例默认使用占位符。
+- 如果用户明确要求只回答问题、不改代码、不改文档，应尊重该要求。

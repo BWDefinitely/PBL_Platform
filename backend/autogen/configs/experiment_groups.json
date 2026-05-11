@@ -1,0 +1,92 @@
+{
+  "dataset_name": "persona_groupchat_benchmark_v1",
+  "description": "基于 persona.json 的多智能体群聊对照实验，用于生成协作与失调行为并存的模拟对话数据。",
+  "default_task": "你们是一组正在准备课程项目汇报的大学生团队。请围绕“校园 AI 学习助手”方案展开讨论，在有限时间内完成以下目标：1）明确目标用户；2）确定 3 个核心功能；3）提出一个最小可行版本；4）给出简短分工建议。请直接开始讨论，并在对话自然收束时形成清晰结论。",
+  "output_prefix": "persona_groupchat_dataset",
+  "manager_system_message": "你是群聊流程协调者。你的职责是选择最适合继续推进任务的发言者，让讨论保持连贯、充分体现角色差异，并尽量让群聊在 max_round 内自然收束。",
+  "default_groupchat": {
+    "max_round": 10,
+    "speaker_selection_method": "auto",
+    "allow_repeat_speaker": false,
+    "temperature": 0.7,
+    "tags": [
+      "baseline"
+    ]
+  },
+  "groups": [
+    {
+      "group_id": "positive_control_4",
+      "member_role_ids": [
+        "initiator_proposer",
+        "evaluator_critic",
+        "implementer_worker",
+        "harmonizer"
+      ],
+      "repeats": 1,
+      "tags": [
+        "positive",
+        "control"
+      ]
+    },
+    {
+      "group_id": "positive_control_5",
+      "member_role_ids": [
+        "initiator_proposer",
+        "evaluator_critic",
+        "implementer_worker",
+        "information_seeker",
+        "gatekeeper_expediter"
+      ],
+      "repeats": 1,
+      "tags": [
+        "positive",
+        "control"
+      ]
+    },
+    {
+      "group_id": "mixed_with_free_rider",
+      "member_role_ids": [
+        "initiator_proposer",
+        "implementer_worker",
+        "gatekeeper_expediter",
+        "encourager",
+        "free_rider"
+      ],
+      "repeats": 1,
+      "tags": [
+        "mixed",
+        "free_rider"
+      ]
+    },
+    {
+      "group_id": "mixed_with_dominator",
+      "member_role_ids": [
+        "initiator_proposer",
+        "evaluator_critic",
+        "harmonizer",
+        "information_seeker",
+        "dominator"
+      ],
+      "repeats": 1,
+      "tags": [
+        "mixed",
+        "dominator"
+      ]
+    },
+    {
+      "group_id": "high_conflict_team",
+      "member_role_ids": [
+        "implementer_worker",
+        "lone_wolf",
+        "dominator",
+        "blocker"
+      ],
+      "repeats": 1,
+      "max_round": 10,
+      "tags": [
+        "negative",
+        "conflict"
+      ]
+    }
+  ]
+}

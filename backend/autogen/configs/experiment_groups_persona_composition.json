@@ -1,0 +1,317 @@
+{
+  "schema_version": "project_timeline_v2",
+  "dataset_name": "persona_composition_timeline_benchmark_v1",
+  "description": "面向教育场景的 persona 组合对话生成实验。每个 group 使用不同学生 persona 组合，用于生成不同协作质量、冲突程度和推进方式的学生团队连续对话。",
+  "output_prefix": "persona_composition_timeline_dataset",
+  "manager_system_message": "你是学生项目讨论的流程协调者。你的职责是保持讨论自然、减少机械重复、在需要时轻微拉回项目主线，并让会议在自然停点结束。不要替学生评分，只负责让不同 persona 组合自然互动。",
+  "default_groupchat": {
+    "max_round": 12,
+    "speaker_selection_method": "auto",
+    "allow_repeat_speaker": false,
+    "temperature": 0.8,
+    "tags": [
+      "timeline_v2",
+      "persona_composition"
+    ]
+  },
+  "generation_settings": {
+    "min_effective_messages": 8,
+    "min_participating_speakers": 3,
+    "repair_max_rounds": 2,
+    "enable_closer": true,
+    "enable_event_controller": false,
+    "enable_quality_diagnostics": true,
+    "session_timeout_seconds": 120,
+    "incremental_conversation_timeline": true
+  },
+  "groups": [
+    {
+      "group_id": "composition_positive_balanced_4",
+      "scenario_id": "campus_ai_learning_assistant",
+      "member_role_ids": [
+        "initiator_proposer",
+        "evaluator_critic",
+        "implementer_worker",
+        "harmonizer"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        5
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "medium",
+      "deadline_pressure_curve": "ramp_up",
+      "tags": [
+        "persona_composition",
+        "positive",
+        "balanced",
+        "baseline"
+      ]
+    },
+    {
+      "group_id": "composition_positive_balanced_5",
+      "scenario_id": "peer_teaching_workshop",
+      "member_role_ids": [
+        "initiator_proposer",
+        "information_seeker",
+        "implementer_worker",
+        "gatekeeper_expediter",
+        "encourager"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        5
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "medium",
+      "deadline_pressure_curve": "ramp_up",
+      "tags": [
+        "persona_composition",
+        "positive",
+        "balanced",
+        "five_members"
+      ]
+    },
+    {
+      "group_id": "composition_creative_vs_critical",
+      "scenario_id": "startup_product_prototype",
+      "member_role_ids": [
+        "initiator_proposer",
+        "evaluator_critic",
+        "information_seeker",
+        "harmonizer"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        5
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "medium",
+      "deadline_pressure_curve": "ramp_up",
+      "tags": [
+        "persona_composition",
+        "creative",
+        "critical"
+      ]
+    },
+    {
+      "group_id": "composition_execution_heavy",
+      "scenario_id": "learning_analytics_assignment",
+      "member_role_ids": [
+        "implementer_worker",
+        "gatekeeper_expediter",
+        "evaluator_critic",
+        "information_seeker"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        5
+      ],
+      "offtopic_tendency": "medium",
+      "attendance_variability": "medium",
+      "deadline_pressure_curve": "ramp_up",
+      "tags": [
+        "persona_composition",
+        "execution_heavy",
+        "task_oriented"
+      ]
+    },
+    {
+      "group_id": "composition_maintenance_heavy",
+      "scenario_id": "group_course_presentation",
+      "member_role_ids": [
+        "harmonizer",
+        "encourager",
+        "gatekeeper_expediter",
+        "initiator_proposer"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        5
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "medium",
+      "deadline_pressure_curve": "ramp_up",
+      "tags": [
+        "persona_composition",
+        "maintenance_heavy",
+        "supportive"
+      ]
+    },
+    {
+      "group_id": "composition_free_rider_managed",
+      "scenario_id": "online_collaboration_project",
+      "member_role_ids": [
+        "initiator_proposer",
+        "implementer_worker",
+        "gatekeeper_expediter",
+        "encourager",
+        "free_rider"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        5
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "high",
+      "deadline_pressure_curve": "late_crunch",
+      "tags": [
+        "persona_composition",
+        "mixed",
+        "free_rider",
+        "managed"
+      ]
+    },
+    {
+      "group_id": "composition_free_rider_unmanaged",
+      "scenario_id": "literature_review_team",
+      "member_role_ids": [
+        "initiator_proposer",
+        "harmonizer",
+        "encourager",
+        "free_rider"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        5
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "high",
+      "deadline_pressure_curve": "late_crunch",
+      "tags": [
+        "persona_composition",
+        "mixed",
+        "free_rider",
+        "unmanaged"
+      ]
+    },
+    {
+      "group_id": "composition_dominator_buffered",
+      "scenario_id": "campus_ai_learning_assistant",
+      "member_role_ids": [
+        "initiator_proposer",
+        "evaluator_critic",
+        "harmonizer",
+        "information_seeker",
+        "dominator"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        5
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "medium",
+      "deadline_pressure_curve": "ramp_up",
+      "tags": [
+        "persona_composition",
+        "mixed",
+        "dominator",
+        "buffered"
+      ]
+    },
+    {
+      "group_id": "composition_dominator_unbuffered",
+      "scenario_id": "group_course_presentation",
+      "member_role_ids": [
+        "implementer_worker",
+        "information_seeker",
+        "encourager",
+        "dominator"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        5
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "high",
+      "deadline_pressure_curve": "late_crunch",
+      "tags": [
+        "persona_composition",
+        "mixed",
+        "dominator",
+        "unbuffered"
+      ]
+    },
+    {
+      "group_id": "composition_blocker_conflict",
+      "scenario_id": "education_data_lab_report",
+      "member_role_ids": [
+        "initiator_proposer",
+        "evaluator_critic",
+        "gatekeeper_expediter",
+        "blocker"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        4
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "high",
+      "deadline_pressure_curve": "late_crunch",
+      "tags": [
+        "persona_composition",
+        "negative",
+        "blocker",
+        "conflict"
+      ]
+    },
+    {
+      "group_id": "composition_lone_wolf_conflict",
+      "scenario_id": "learning_analytics_assignment",
+      "member_role_ids": [
+        "initiator_proposer",
+        "implementer_worker",
+        "harmonizer",
+        "lone_wolf"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        4
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "high",
+      "deadline_pressure_curve": "late_crunch",
+      "tags": [
+        "persona_composition",
+        "negative",
+        "lone_wolf",
+        "conflict"
+      ]
+    },
+    {
+      "group_id": "composition_high_dysfunction",
+      "scenario_id": "deadline_conflict_project",
+      "member_role_ids": [
+        "free_rider",
+        "lone_wolf",
+        "dominator",
+        "blocker"
+      ],
+      "repeats": 1,
+      "session_count_range": [
+        3,
+        4
+      ],
+      "offtopic_tendency": "high",
+      "attendance_variability": "high",
+      "deadline_pressure_curve": "late_crunch",
+      "tags": [
+        "persona_composition",
+        "negative",
+        "high_dysfunction",
+        "conflict"
+      ]
+    }
+  ]
+}

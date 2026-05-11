@@ -1,0 +1,37 @@
+# 开发日志（Development Journal）
+
+每完成一个有意义的步骤，就追加一条记录。
+
+## __DATE__ 00:00 | 初始化（bootstrap） | 项目启动（Project Initialization）
+
+### 目标（Goal）
+
+为 `__PROJECT_NAME__` 建立结构化记录体系。
+
+### 发生了什么（What Happened）
+
+初始化了项目记录骨架。
+
+### 问题（Problem）
+
+N/A
+
+### 根因（Root Cause）
+
+N/A
+
+### 解决方案（Solution）
+
+创建了标准文档和辅助脚本。
+
+### 验证（Validation）
+
+确认记录结构已经存在。
+
+### 影响（Impact）
+
+后续工作可以按统一格式持续记录。
+
+### 下一步（Next）
+
+将占位内容替换成项目自己的实际信息。
