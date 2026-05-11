@@ -1,0 +1,22 @@
+{
+  "_comment": "统一的 LLM API 配置 — 同时被 generator-service 和 autogen 使用。修改这一个文件即可同步所有功能的模型/密钥/端点。",
+  "platform": {
+    "model": "gpt-5.4-nano",
+    "api_key": "sk-FRfTmOADOF2SnHvnhjxs366LSaHfDOV5E7reyuLzzDVNWvYZ",
+    "base_url": "https://jeniya.cn/v1"
+  },
+  "dialogue": [
+    {
+      "model": "gpt-5.4-nano",
+      "api_key": "sk-FRfTmOADOF2SnHvnhjxs366LSaHfDOV5E7reyuLzzDVNWvYZ",
+      "base_url": "https://jeniya.cn/v1"
+    }
+  ],
+  "controller": [
+    {
+      "model": "gpt-5.4-nano",
+      "api_key": "sk-FRfTmOADOF2SnHvnhjxs366LSaHfDOV5E7reyuLzzDVNWvYZ",
+      "base_url": "https://jeniya.cn/v1"
+    }
+  ]
+}

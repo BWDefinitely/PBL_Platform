@@ -34,6 +34,8 @@ router = APIRouter(prefix="/api/autogen", tags=["autogen"])
 # backend/src/modules/autogen/router.py -> backend/autogen
 AUTOGEN_ROOT = Path(__file__).resolve().parents[3] / "autogen"
 RUNS_ROOT = AUTOGEN_ROOT / "runs"
+# Unified LLM config shared with generator-service. Single source of truth.
+UNIFIED_LLM_CONFIG = AUTOGEN_ROOT.parent / "llm_config.json"
 
 # In-memory job registry. Test-only feature, no DB persistence needed.
 _JOBS: dict[str, dict] = {}
@@ -47,7 +49,9 @@ class RunRequest(BaseModel):
     smoke_test: bool = True
     dry_run: bool = False
     only_groups: Optional[str] = None
-    config_list_file: str = "configs/oai_config_list.json"
+    # Empty string => use the unified backend/llm_config.json shared with
+    # generator-service. Set to a custom path only when you need to override.
+    config_list_file: str = ""
     estimate_cost: bool = False
 
 
@@ -62,7 +66,10 @@ def _build_command(req: RunRequest, data_dir_rel: str) -> list[str]:
     if req.dry_run:
         cmd.append("--dry-run")
     else:
-        cmd += ["--config-list-file", req.config_list_file]
+        # Use an absolute path so the autogen process resolves the unified
+        # file regardless of its cwd (= AUTOGEN_ROOT).
+        config_path = req.config_list_file or str(UNIFIED_LLM_CONFIG)
+        cmd += ["--config-list-file", config_path]
     if req.smoke_test and req.mode == "timeline":
         cmd.append("--smoke-test")
     if req.estimate_cost and req.mode == "timeline":

@@ -8,8 +8,10 @@ Python version: 3.10+
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+import json
 import logging
 import os
+from pathlib import Path
 from typing import Final, List
 
 
@@ -58,10 +60,44 @@ def _get_env(name: str, default: str = "") -> str:
     return os.getenv(name, default).strip()
 
 
+# Unified LLM config shared with autogen. Single source of truth for
+# model/api_key/base_url across the whole backend. Env vars still win when
+# present, so deployments can override without editing the file.
+_LLM_CONFIG_PATH = Path(__file__).resolve().parent.parent / "llm_config.json"
+
+
+def _load_unified_llm() -> dict[str, str]:
+    try:
+        payload = json.loads(_LLM_CONFIG_PATH.read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    entry = payload.get("platform")
+    if not entry and isinstance(payload.get("dialogue"), list) and payload["dialogue"]:
+        entry = payload["dialogue"][0]
+    if not isinstance(entry, dict):
+        return {}
+    base = str(entry.get("base_url", "")).rstrip("/")
+    # generator-service historically points at the chat/completions URL;
+    # normalise here so the rest of the code keeps working unchanged.
+    if base and not base.endswith("/chat/completions"):
+        if base.endswith("/v1"):
+            base = f"{base}/chat/completions"
+        else:
+            base = f"{base}/v1/chat/completions"
+    return {
+        "api_key": entry.get("api_key", ""),
+        "base_url": base,
+        "model": entry.get("model", ""),
+    }
+
+
+_UNIFIED = _load_unified_llm()
+
+
 AI_SETTINGS: Final[AISettings] = AISettings(
-    api_key=_get_env("JENIYA_API_KEY","sk-sZrlbu7OV3eVqviPC1tAOoghL5copn29DmCS8CeFPxSf8ZHQ"),
-    base_url=_get_env("JENIYA_BASE_URL", "https://jeniya.cn/v1/chat/completions"),
-    model=_get_env("JENIYA_MODEL", "gpt-4o"),
+    api_key=_get_env("JENIYA_API_KEY", _UNIFIED.get("api_key", "")),
+    base_url=_get_env("JENIYA_BASE_URL", _UNIFIED.get("base_url", "")),
+    model=_get_env("JENIYA_MODEL", _UNIFIED.get("model", "gpt-4o")),
 )
 
 UI_SETTINGS: Final[UISettings] = UISettings(

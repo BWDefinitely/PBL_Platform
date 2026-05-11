@@ -8,7 +8,7 @@ export default function AIDataGenerator() {
   const [dryRun, setDryRun] = useState(false);
   const [estimateCost, setEstimateCost] = useState(false);
   const [onlyGroups, setOnlyGroups] = useState('');
-  const [configFile, setConfigFile] = useState('configs/oai_config_list.json');
+  const [configFile, setConfigFile] = useState('');
 
   const [jobs, setJobs] = useState([]);
   const [currentJob, setCurrentJob] = useState(null);
@@ -183,7 +183,7 @@ export default function AIDataGenerator() {
             </select>
 
             <label>配置文件</label>
-            <input value={configFile} onChange={(e) => setConfigFile(e.target.value)} />
+            <input value={configFile} onChange={(e) => setConfigFile(e.target.value)} placeholder="留空 = 使用统一配置 backend/llm_config.json" />
 
             <label>仅运行分组</label>
             <input value={onlyGroups} onChange={(e) => setOnlyGroups(e.target.value)} placeholder="例: timeline_positive_4 (可选)" />
