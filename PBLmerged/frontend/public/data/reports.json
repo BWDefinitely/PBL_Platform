@@ -1,0 +1,79 @@
+[
+  {
+    "run_id": "static_pack_20260430",
+    "artifacts": [
+      {
+        "id": 1,
+        "name": "agent_vs_ground_truth_heatmap.png",
+        "type": "chart_png",
+        "url": "/data/reports/agent_vs_ground_truth_heatmap.png",
+        "meta": {
+          "size_bytes": 83205
+        }
+      },
+      {
+        "id": 2,
+        "name": "agent_vs_ground_truth_profile_bars.png",
+        "type": "chart_png",
+        "url": "/data/reports/agent_vs_ground_truth_profile_bars.png",
+        "meta": {
+          "size_bytes": 44695
+        }
+      },
+      {
+        "id": 3,
+        "name": "agent_vs_ground_truth_scatter.png",
+        "type": "chart_png",
+        "url": "/data/reports/agent_vs_ground_truth_scatter.png",
+        "meta": {
+          "size_bytes": 63261
+        }
+      },
+      {
+        "id": 4,
+        "name": "error_metrics_summary.json",
+        "type": "report_file",
+        "url": "/data/reports/error_metrics_summary.json",
+        "meta": {
+          "size_bytes": 302
+        }
+      },
+      {
+        "id": 5,
+        "name": "ground_truth_vs_agent_profile_domain_bars.png",
+        "type": "chart_png",
+        "url": "/data/reports/ground_truth_vs_agent_profile_domain_bars.png",
+        "meta": {
+          "size_bytes": 59288
+        }
+      },
+      {
+        "id": 6,
+        "name": "ground_truth_vs_agent_student_overall_bars.png",
+        "type": "chart_png",
+        "url": "/data/reports/ground_truth_vs_agent_student_overall_bars.png",
+        "meta": {
+          "size_bytes": 80155
+        }
+      },
+      {
+        "id": 7,
+        "name": "improvement_comparison_v1_v3_v4.png",
+        "type": "chart_png",
+        "url": "/data/reports/improvement_comparison_v1_v3_v4.png",
+        "meta": {
+          "size_bytes": 186507
+        }
+      },
+      {
+        "id": 8,
+        "name": "v4_ground_truth_vs_agent_by_dim.png",
+        "type": "chart_png",
+        "url": "/data/reports/v4_ground_truth_vs_agent_by_dim.png",
+        "meta": {
+          "size_bytes": 160718
+        }
+      }
+    ]
+  }
+]

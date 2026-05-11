@@ -1,0 +1,100 @@
+{
+  "student_id": "Emma",
+  "milestone": "M2",
+  "composite_score": 46.67,
+  "student_tier": "Beginning",
+  "assessed_at": "2026-04-15T14:34:10.335431+00:00",
+  "narrative_summary": "Emma 在 M2 的综合表现为 Beginning，综合分 46.7。 当前相对优势在 CL（62.5），较弱环节在 CM（31.2）。 本次共有 1 个维度触发协商裁决。",
+  "domain_scores": {
+    "CT": {
+      "normalized": 43.75,
+      "tier": "Beginning"
+    },
+    "CR": {
+      "normalized": 50,
+      "tier": "Developing"
+    },
+    "CM": {
+      "normalized": 31.25,
+      "tier": "Beginning"
+    },
+    "CL": {
+      "normalized": 62.5,
+      "tier": "Developing"
+    }
+  },
+  "dimension_scores": {
+    "CT1": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CT2": {
+      "final_score": 1,
+      "rationale": null
+    },
+    "CT3": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CT4": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CR1": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CR2": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CR3": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CM1": {
+      "final_score": 1,
+      "rationale": null
+    },
+    "CM2": {
+      "final_score": 1,
+      "rationale": null
+    },
+    "CM3": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CM4": {
+      "final_score": 1,
+      "rationale": null
+    },
+    "CL1": {
+      "final_score": 3,
+      "rationale": null
+    },
+    "CL2": {
+      "final_score": 2,
+      "rationale": null
+    },
+    "CL3": {
+      "final_score": 3,
+      "rationale": null
+    },
+    "CL4": {
+      "final_score": 2,
+      "rationale": null
+    }
+  },
+  "flags": {
+    "intervention_alert": false,
+    "equity_flag": false,
+    "unresolved_dimensions": []
+  },
+  "evidence_snippets": [
+    {
+      "source": "collab_trace",
+      "text": "Emma 在 M2 的综合表现为 Beginning，综合分 46.7。 当前相对优势在 CL（62.5），较弱环节在 CM（31.2）。 本次共有 1 个维度触发协商裁决。",
+      "trace_ref": null
+    }
+  ]
+}
