@@ -124,7 +124,7 @@ npm install
 **后端**
 ```bash
 cd backend
-uvicorn src.main:app --reload --host 0.0.0.0 --port 8100
+uvicorn src.main:app --reload 
 ```
 
 **前端**
@@ -133,7 +133,7 @@ cd frontend
 npm run dev
 ```
 
-前端默认运行在 `http://localhost:5173`，后端 API 在 `http://localhost:8100`。
+前端默认运行在 `http://localhost:5173`，后端 API 在 `http://localhost:8000`。
 
 ### 4. 访问平台
 
